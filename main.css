@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: blue;
+
+}
+.mainarea{
+    width: 700px;
+    height: 700px;
+    background-color: gray;
+    float: left;
+}
+.mainarea>img{
+    height: 180px;
+    width: 250px;
+    position: relative;
+}
+
+.outside{
+    float: right;
+    width: 500px;
+    height: 700px;
+    background-color: rgba(153, 1, 1, 0.445);
+    
+}
+.outside>img{
+    position: relative;
+    height:   180px;
+    width: 250px;
+    top: 520px;
+    left: 250px;
+}
